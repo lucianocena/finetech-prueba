@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 // El endpoint que Meta va a buscar para validar
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
-  const token = req.query['588888'];
+  const token = req.query['5888'];
   const challenge = req.query['hub.challenge'];
 
   // ACÁ: Cambiá 'fintechgas' por el token que vayas a usar en Meta
